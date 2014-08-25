@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+  version="2.0">
+    
+  <description>JSTL 1.0 functions library for xuernupt</description>
+  <display-name>JSTL functions</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>xuefn</short-name>
+  <uri>http://www.xuernupt.com/taglib</uri>
+
+
+  <function>
+    <description>
+      URLdecode.
+    </description>
+    <name>decode</name>
+    <function-class>com.springmvc.t.util.UrlDecoder</function-class>
+    <function-signature>java.lang.String decode(java.lang.String)</function-signature>
+    <example>
+      Name: ${xuefn.decode(name)}
+    </example>  
+  </function>
+
+</taglib>

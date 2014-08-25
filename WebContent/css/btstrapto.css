@@ -1,0 +1,32 @@
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
+	font-family: Microsoft YaHei,'ËÎÌו' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif,SimHei,SimSun,FangSong,KaiTi;
+	
+}
+
+body.home,.jumbotron.home{
+	
+	background-image:url(../img/background.jpg);
+	background-attachment:fixed;
+	
+	
+	background-repeat:no-repeat;
+}
+.navbar.navlogo {
+	display:block;
+	text-indent:-999999px;
+	background:url(/images/logo_vagrant-81478652.png) no-repeat 0 0;
+	height:40px;
+	width:50px;
+	float:left;
+	margin:10px 20px;
+}
+.bs-footer {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  color: #000000;
+  text-align: center;
+  
+}
+
+
